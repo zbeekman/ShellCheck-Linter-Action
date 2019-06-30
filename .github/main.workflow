@@ -13,5 +13,5 @@ workflow "EditorConfig Audit" {
 }
 
 action "EditorConfig-Action" {
-  uses = zbeekman/EditorConfig-Action@master
+  uses = "zbeekman/EditorConfig-Action@master"
 }
