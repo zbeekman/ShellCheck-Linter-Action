@@ -17,7 +17,7 @@ workflow "ShellCheck Audit" {
 }
 
 action "ShellCheck-Lint-Action" {
-  uses = "./ShellCheck-Linter/"
+  uses = "zbeekman/ShellCheck-Lint-Actions@v1.0.0"
   env = {
     ALWAYS_LINT_ALL_FILES = "true" # current default
   }
