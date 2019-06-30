@@ -4,5 +4,5 @@ workflow "ShellCheck Audit" {
 }
 
 action "ShellCheck-Lint-Action" {
-  uses = "./ShellCheck-Linter/"
+  uses = "./"
 }
