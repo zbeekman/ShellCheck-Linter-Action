@@ -2,7 +2,7 @@
 
 GitHub Action for linting scripts in the repository with [ShellCheck].
 
-This project uses [ShellCheck] by  ([@koalaman]) to lint your project.
+This project uses [ShellCheck] by Vidar Holen ([@koalaman]) to lint your project.
 
 ## Example Workflows
 
@@ -36,5 +36,5 @@ some time.
  - Better integration with the GitHub checks API, maybe?
 
 
-[ShellCheck]: https://shellcheck.org
+[ShellCheck]: https://www.shellcheck.net
 [@koalaman]: https://github.com/koalaman
