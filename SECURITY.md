@@ -24,4 +24,4 @@ met:
   ## Changes to this Security Policy
 
   Changes made to this security policy will take effect *no sooner than* __50 days__ after
-  publication on the master branch of https://github.com/zbeekman/ShellCheck-Lint-Action.
+  publication on the master branch of https://github.com/zbeekman/ShellCheck-Linter-Action.

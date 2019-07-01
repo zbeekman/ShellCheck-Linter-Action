@@ -1,6 +1,6 @@
 <div align="center">
 
-# ShellCheck-Lint-Action
+# ShellCheck-Linter-Action
 
 
 [![action on GH marketplace][marketplace badge]][marketplace] &nbsp;
@@ -23,11 +23,11 @@ To ensure your repository does not have any potential scripting errors, use the 
 ```workflow
 workflow "ShellCheck Audit" {
   on = "push"
-  resolves = ["ShellCheck-Lint-Action"]
+  resolves = ["ShellCheck-Linter-Action"]
 }
 
-action "ShellCheck-Lint-Action" {
-  uses = "zbeekman/ShellCheck-Lint-Action@v1.0.1"
+action "ShellCheck-Linter-Action" {
+  uses = "zbeekman/ShellCheck-Linter-Action@v1.0.1"
   env = {
     ALWAYS_LINT_ALL_FILES = "true" # current default
   }
@@ -62,16 +62,16 @@ some time.
 Badges and local links
 -->
 [marketplace badge]: https://img.shields.io/badge/GitHub-Marketplace-lightblue.svg
-[marketplace]: https://github.com/marketplace/actions/shellcheck-lint-action
-[LICENSE badge]: https://img.shields.io/github/license/zbeekman/ShellCheck-Lint-Action.svg
-[LICENSE]: https://github.com/zbeekman/ShellCheck-Lint-Action/blob/master/LICENSE
-[release badge]: https://img.shields.io/github/release/zbeekman/ShellCheck-Lint-Action.svg
-[latest release]: https://github.com/zbeekman/ShellCheck-Lint-Action/releases/latest
+[marketplace]: https://github.com/marketplace/actions/shellcheck-linter-action
+[LICENSE badge]: https://img.shields.io/github/license/zbeekman/ShellCheck-Linter-Action.svg
+[LICENSE]: https://github.com/zbeekman/ShellCheck-Linter-Action/blob/master/LICENSE
+[release badge]: https://img.shields.io/github/release/zbeekman/ShellCheck-Linter-Action.svg
+[latest release]: https://github.com/zbeekman/ShellCheck-Linter-Action/releases/latest
 [keybase badge]: https://img.shields.io/keybase/pgp/zbeekman.svg
 [keybase]: https://keybase.io/zbeekman
 [twitter badge]: https://img.shields.io/twitter/follow/zbeekman.svg?style=social
 [twitter]: https://twitter.com/intent/follow?screen_name=zbeekman
-[star badge]: https://img.shields.io/github/stars/zbeekman/ShellCheck-Lint-Action.svg?style=social
-[star]: https://github.com/zbeekman/ShellCheck-Lint-Action
+[star badge]: https://img.shields.io/github/stars/zbeekman/ShellCheck-Linter-Action.svg?style=social
+[star]: https://github.com/zbeekman/ShellCheck-Linter-Action
 [gh follow]: https://img.shields.io/github/followers/zbeekman.svg?style=social
 [gh profile]: https://github.com/zbeekman

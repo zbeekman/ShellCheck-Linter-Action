@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="Lint scripts in the current project with
 LABEL "com.github.actions.icon"="terminal"
 LABEL "com.github.actions.color"="yellow"
 
-LABEL "repository"="https://github.com/zbeekman/ShellCheck-Lint-Action"
-LABEL "homepage"="https://github.com/zbeekman/ShellCheck-Lint-Action#README.md"
+LABEL "repository"="https://github.com/zbeekman/ShellCheck-Linter-Action"
+LABEL "homepage"="https://github.com/zbeekman/ShellCheck-Linter-Action#README.md"
 LABEL "maintainer"="Izaak \"Zaak\" Beekman <contact@izaakbeekman.com>"
 
 RUN apk add --no-cache bash file git jq ca-certificates
