@@ -5,6 +5,9 @@ workflow "ShellCheck Audit" {
 
 action "ShellCheck-Lint-Action" {
   uses = "./"
+  env = {
+      ALWAYS_LINT_ALL_FILES = "true"
+  }
 }
 
 workflow "EditorConfig Audit" {
@@ -14,4 +17,7 @@ workflow "EditorConfig Audit" {
 
 action "EditorConfig-Action" {
   uses = "zbeekman/EditorConfig-Action@master"
+  env = {
+      ALWAYS_LINT_ALL_FILES = "true"
+  }
 }

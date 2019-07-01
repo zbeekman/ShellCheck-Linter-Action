@@ -32,8 +32,8 @@ some time.
 
 ## Future Plans
 
- - Option to limit linting to changed script files
- - Better integration with the GitHub checks API, maybe?
+  - Option to limit linting to changed script files
+  - Better integration with the GitHub checks API, maybe?
 
 
 [ShellCheck]: https://www.shellcheck.net
