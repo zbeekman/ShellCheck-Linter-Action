@@ -1,4 +1,14 @@
+<div align="center">
+
 # ShellCheck-Lint-Action
+
+
+[![action on GH marketplace][marketplace badge]][marketplace] &nbsp;
+[![gpg on keybase.io][keybase badge]][keybase] &nbsp;
+[![GitHub release][release badge]][latest release] &nbsp;
+[![GitHub][LICENSE badge]][LICENSE]
+
+</div>
 
 GitHub Action for linting scripts in the repository with [ShellCheck].
 
@@ -35,6 +45,33 @@ some time.
   - Option to limit linting to changed script files
   - Better integration with the GitHub checks API, maybe?
 
+---
+
+<div align="center">
+
+[![star badge][star badge]][star] &nbsp;
+[![zbeekman gh profile][gh follow]][gh profile] &nbsp;
+[![zbeekman on twitter][twitter badge]][twitter]
+
+</div>
 
 [ShellCheck]: https://www.shellcheck.net
 [@koalaman]: https://github.com/koalaman
+
+<!--
+Badges and local links
+-->
+[marketplace badge]: https://img.shields.io/badge/GitHub-Marketplace-lightblue.svg
+[marketplace]: https://github.com/marketplace/actions/shellcheck-lint-action
+[LICENSE badge]: https://img.shields.io/github/license/zbeekman/ShellCheck-Lint-Action.svg
+[LICENSE]: https://github.com/zbeekman/ShellCheck-Lint-Action/blob/master/LICENSE
+[release badge]: https://img.shields.io/github/release/zbeekman/ShellCheck-Lint-Action.svg
+[latest release]: https://github.com/zbeekman/ShellCheck-Lint-Action/releases/latest
+[keybase badge]: https://img.shields.io/keybase/pgp/zbeekman.svg
+[keybase]: https://keybase.io/zbeekman
+[twitter badge]: https://img.shields.io/twitter/follow/zbeekman.svg?style=social
+[twitter]: https://twitter.com/intent/follow?screen_name=zbeekman
+[star badge]: https://img.shields.io/github/stars/zbeekman/ShellCheck-Lint-Action.svg?style=social
+[star]: https://github.com/zbeekman/ShellCheck-Lint-Action
+[gh follow]: https://img.shields.io/github/followers/zbeekman.svg?style=social
+[gh profile]: https://github.com/zbeekman
