@@ -70,7 +70,7 @@ some time.
 
 ## Other GitHub Action from [@zbeekman]
 
-  - https://gtihub.com/marketplace/actions/editorconfig-action
+  - [EditorConfig-Action]
 
 ---
 
@@ -85,6 +85,7 @@ some time.
 [ShellCheck]: https://www.shellcheck.net
 [@koalaman]: https://github.com/koalaman
 [@zbeekman]: https://github.com/zbeekman
+[EditorConfig-Action]: https://github.com/marketplace/actions/editorconfig-action
 
 [bender turtle]: https://media.giphy.com/media/gYZ7qO81g4dt6/giphy.gif
 <!--
