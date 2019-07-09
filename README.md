@@ -10,7 +10,7 @@
 
 </div>
 
-GitHub Action for linting scripts in the repository with [ShellCheck].
+A GitHub Action for linting your project's scripts with [ShellCheck].
 
 <div align="center">
 
