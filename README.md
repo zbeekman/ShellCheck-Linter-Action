@@ -10,7 +10,30 @@
 
 </div>
 
-GitHub Action for linting scripts in the repository with [ShellCheck].
+A GitHub Action for linting your project's scripts with [ShellCheck].
+
+<div align="center">
+
+[![Bender and turtle][bender turtle]][marketplace]
+
+</div>
+
+<details><summary><b>Table of Contents</b></summary>
+<p>
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [ShellCheck-Linter-Action](#shellcheck-linter-action)
+  - [Example Workflows](#example-workflows)
+    - [Check Conformance of Pushed Commits with ShellCheck](#check-conformance-of-pushed-commits-with-shellcheck)
+  - [Future Plans](#future-plans)
+  - [Other GitHub Action from @zbeekman](#other-github-action-from-zbeekman)
+
+<!-- markdown-toc end -->
+
+</p>
+</details>
 
 This project uses [ShellCheck] by Vidar Holen ([@koalaman]) to lint your project.
 
@@ -45,6 +68,10 @@ some time.
   - Option to limit linting to changed script files
   - Better integration with the GitHub checks API, maybe?
 
+## Other GitHub Action from [@zbeekman]
+
+  - https://gtihub.com/marketplace/actions/editorconfig-action
+
 ---
 
 <div align="center">
@@ -57,7 +84,9 @@ some time.
 
 [ShellCheck]: https://www.shellcheck.net
 [@koalaman]: https://github.com/koalaman
+[@zbeekman]: https://github.com/zbeekman
 
+[bender turtle]: https://media.giphy.com/media/gYZ7qO81g4dt6/giphy.gif
 <!--
 Badges and local links
 -->
