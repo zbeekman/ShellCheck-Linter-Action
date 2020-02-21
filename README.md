@@ -1,3 +1,5 @@
+## Notice: This repository is deprecated. I recommend you use [reviewdog/action-shellcheck](https://github.com/reviewdog/action-shellcheck) instead.
+
 <div align="center">
 
 # ShellCheck-Linter-Action
